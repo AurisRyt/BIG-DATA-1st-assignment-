@@ -5,12 +5,7 @@ import time
 import psutil
 import os
 import sys
-# ------------------------------------------------------------------------------
-# GPS Spoofing Detection – Method C (Positional + COG Conflict Detection)
-# ------------------------------------------------------------------------------
-# Šis skriptas analizuoja AIS duomenis ir aptinka galimus GPS spoofing atvejus
-# remiantis laiko, erdvės ir kurso (COG) konfliktais tarp laivų.
-#
+
 # Kodo eiliškumas:
 # 1. Parametrų apibrėžimas (failų keliai, nustatymai, slenksčiai, branduolių skaičius).
 # 2. `ProgressBar` klasė – naudojama gražiam progreso atvaizdavimui konsolėje.
